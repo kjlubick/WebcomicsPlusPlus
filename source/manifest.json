@@ -2,9 +2,6 @@
     "content_scripts": [
         {
             "all_frames": true,
-            "css": [
-                "css/notification.css"
-            ],
             "js": [
                 "js/logger.js",
                 "js/jquery-2.1.3.js",
@@ -13,6 +10,19 @@
             ],
             "matches": [
                 "*://xkcd.com/*", "*://www.xkcd.com/*"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/logger.js",
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/commitstrip.js"
+            ],
+            "matches": [
+                "*://commitstrip.com/*", "*://www.commitstrip.com/*"
             ],
             "run_at": "document_end"
         }
