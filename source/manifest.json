@@ -25,6 +25,19 @@
                 "*://commitstrip.com/*", "*://www.commitstrip.com/*"
             ],
             "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/logger.js",
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/bugmartini.js"
+            ],
+            "matches": [
+                "*://bugmartini.com/*", "*://www.bugmartini.com/*","*://bugcomic.com/*", "*://www.bugcomic.com/*"
+            ],
+            "run_at": "document_end"
         }
     ],
     "description": "Augment webcomics with keyboard shortcuts ",

@@ -5,6 +5,13 @@ Webcomics like [SMBC](http://www.smbc-comics.com/) have nice keyboard shortcuts 
 
 This extension adds that feature (and others) into some other webcomics.
 
+Keys:  
+Z = previous comic  
+C = next comic  
+X = random comic (not always supported)  
+Y = switch to permalink (not always needed)  
+
 Supported Webcomics:  
 [Commit Strip](www.commitstrip.com)  
-[XKCD](www.xkcd.com)
+[XKCD](www.xkcd.com)  
+[Bug Martini](www.bugmartini.com)
