@@ -51,6 +51,19 @@
                 "*://explosm.net/*", "*://www.explosm.net/*"
             ],
             "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/logger.js",
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/phdcomics.js"
+            ],
+            "matches": [
+                "*://phdcomics.com/*", "*://www.phdcomics.com/*"
+            ],
+            "run_at": "document_end"
         }
 
     ],
