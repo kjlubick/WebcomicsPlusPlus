@@ -71,6 +71,18 @@
                 "*://cad-comic.com/*", "*://www.cad-comic.com/*"
             ],
             "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/awkwardzombie.js"
+            ],
+            "matches": [
+                "*://awkwardzombie.com/*", "*://www.awkwardzombie.com/*"
+            ],
+            "run_at": "document_end"
         }
 
     ],
