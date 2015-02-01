@@ -3,7 +3,6 @@
         {
             "all_frames": true,
             "js": [
-                "js/logger.js",
                 "js/jquery-2.1.3.js",
                 "js/mousetrap-1.4.6.min.js",
                 "js/sites/xkcd.js"
@@ -16,7 +15,6 @@
         {
             "all_frames": true,
             "js": [
-                "js/logger.js",
                 "js/jquery-2.1.3.js",
                 "js/mousetrap-1.4.6.min.js",
                 "js/sites/commitstrip.js"
@@ -29,7 +27,6 @@
         {
             "all_frames": true,
             "js": [
-                "js/logger.js",
                 "js/jquery-2.1.3.js",
                 "js/mousetrap-1.4.6.min.js",
                 "js/sites/bugmartini.js"
@@ -42,7 +39,6 @@
         {
             "all_frames": true,
             "js": [
-                "js/logger.js",
                 "js/jquery-2.1.3.js",
                 "js/mousetrap-1.4.6.min.js",
                 "js/sites/explosm.js"
@@ -55,13 +51,24 @@
         {
             "all_frames": true,
             "js": [
-                "js/logger.js",
                 "js/jquery-2.1.3.js",
                 "js/mousetrap-1.4.6.min.js",
                 "js/sites/phdcomics.js"
             ],
             "matches": [
                 "*://phdcomics.com/*", "*://www.phdcomics.com/*"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/cad-comic.js"
+            ],
+            "matches": [
+                "*://cad-comic.com/*", "*://www.cad-comic.com/*"
             ],
             "run_at": "document_end"
         }

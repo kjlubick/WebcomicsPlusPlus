@@ -15,6 +15,7 @@ Mousetrap.bind('x', function() { 		//random
 		var num = parseInt(last.href.replace( /^\D+/g, ''), 10);
 
 		rand = Math.floor((Math.random() * num) + 1);
+		//replace numbers with my number
 		window.location.href = last.href.replace( /\d+/g, rand);
 	} else {
 		rand = Math.floor((616 * Math.random()) + 1);		//as of 1/27/15, there are 616 comics
