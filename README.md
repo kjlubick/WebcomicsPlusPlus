@@ -15,6 +15,12 @@ Supported Webcomics:
 [Commit Strip](www.commitstrip.com)  
 [XKCD](www.xkcd.com)  
 [Bug Martini](www.bugmartini.com)
+[Ctrl-Alt_Delete](http://www.cad-comic.com/)
+[Cyanide and Happiness](http://explosm.net/)
+[The Doghouse Diaries](http://thedoghousediaries.com/)
+[Piled Higher and Deeper](http://phdcomics.com/comics.php)
+[Awkward Zombie](http://www.awkwardzombie.com/)
+
 
 
 ##License##
