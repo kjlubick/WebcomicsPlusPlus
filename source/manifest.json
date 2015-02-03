@@ -95,6 +95,18 @@
                 "*://thedoghousediaries.com/*", "*://www.thedoghousediaries.com/*"
             ],
             "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/amazingsuperpowers.js"
+            ],
+            "matches": [
+                "*://amazingsuperpowers.com/*", "*://www.amazingsuperpowers.com/*"
+            ],
+            "run_at": "document_end"
         }
 
     ],
