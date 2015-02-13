@@ -22,7 +22,7 @@ function getComicsFromAwkwardZombieAndStore() {
 }
 
 var updatedTime = localStorage.getItem("awkward_zombie_comics_updated");
-if (updatedTime === undefined) {
+if (updatedTime === undefined || updatedTime === null) {
 	getComicsFromAwkwardZombieAndStore();
 }
 else {
