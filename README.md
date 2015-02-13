@@ -14,13 +14,15 @@ Y = switch to permalink (not always needed)
 Supported Webcomics:  
 [Commit Strip](www.commitstrip.com)  
 [XKCD](www.xkcd.com)  
-[Bug Martini](www.bugmartini.com)
-[Ctrl-Alt_Delete](http://www.cad-comic.com/)
-[Cyanide and Happiness](http://explosm.net/)
-[The Doghouse Diaries](http://thedoghousediaries.com/)
-[Piled Higher and Deeper](http://phdcomics.com/comics.php)
-[Awkward Zombie](http://www.awkwardzombie.com/)
-
+[Bug Martini](www.bugmartini.com)  
+[Ctrl-Alt-Delete](http://www.cad-comic.com/)   
+[Cyanide and Happiness](http://explosm.net/)  
+[The Doghouse Diaries](http://thedoghousediaries.com/)   
+[Piled Higher and Deeper](http://phdcomics.com/comics.php)  
+[Awkward Zombie](http://www.awkwardzombie.com/)  
+[AmazingSuperPowers](http://www.amazingsuperpowers.com/)   
+[Abstruse Goose](http://www.abstrusegoose.com/)  
+[Nerf Now](http://www.nerfnow.com/)
 
 
 ##License##
