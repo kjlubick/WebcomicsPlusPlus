@@ -2,6 +2,9 @@
 
 Mousetrap.bind('z', function() { 
 	var normal = $('img[src="images/prev_button.gif"]').closest('a')[0];
+	if (!normal) {
+		normal = $('img[src="comics/images/prev_button.gif"]').closest('a')[0];
+	}
 	if (normal) {
 		normal.click();
 		return;
