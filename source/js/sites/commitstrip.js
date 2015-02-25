@@ -4,7 +4,12 @@ Mousetrap.bind('z', function() {
 	$("a[rel='prev']")[0].click();
 });
 Mousetrap.bind('c', function() { 
-	$("a.nextpostslink")[0].click();
+	var next = $("a.nextpostslink")[0];
+	if (next !== undefined) {
+		next.click();
+		return;
+	}
+	$("a[rel='next']")[0].click();
 });
 Mousetrap.bind('x', function() { 		//random
 	var last = $('a:contains("Last")')[0];
