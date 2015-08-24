@@ -143,6 +143,30 @@
                 "*://pbfcomics.com/*", "*://www.pbfcomics.com/*"
             ],
             "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/questionablecontent.js"
+            ],
+            "matches": [
+                "*://questionablecontent.net/*", "*://www.questionablecontent.net/*"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "all_frames": true,
+            "js": [
+                "js/jquery-2.1.3.js",
+                "js/mousetrap-1.4.6.min.js",
+                "js/sites/thefrumps.js"
+            ],
+            "matches": [
+                "*://thefrumps.com/*", "*://www.thefrumps.com/*"
+            ],
+            "run_at": "document_end"
         }
 
     ],
